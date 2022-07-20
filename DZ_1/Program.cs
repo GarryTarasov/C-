@@ -12,20 +12,23 @@ int number_B = Convert.ToInt32(Console.ReadLine());
 if (number_A > number_B)
 {
         Console.WriteLine(number_A + " больше " + number_B);
+        Console.WriteLine(number_B + " меньше " + number_A);
 }
 else
+if (number_A < number_B)
 {
-if(number_A < number_B)
-{
+    Console.WriteLine(number_B + " больше " + number_A);
     Console.WriteLine(number_A + " меньше " + number_B);
 }
-    else
-    {
-    }
-    if(number_A=number_B)
-    {
-        Console.WriteLine(number_A+ " равны " + number_B);
-    }
-        
+else 
+if (number_A == number_B)
+{
+    Console.WriteLine(number_B + " равны " + number_A);
 }
+     
+
+
+    
+        
+    
       
