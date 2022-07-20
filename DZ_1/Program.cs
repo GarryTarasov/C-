@@ -9,3 +9,23 @@ int number_A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число (B)");
 int number_B = Convert.ToInt32(Console.ReadLine());
 
+if (number_A > number_B)
+{
+        Console.WriteLine(number_A + " больше " + number_B);
+}
+else
+{
+if(number_A < number_B)
+{
+    Console.WriteLine(number_A + " меньше " + number_B);
+}
+    else
+    {
+    }
+    if(number_A=number_B)
+    {
+        Console.WriteLine(number_A+ " равны " + number_B);
+    }
+        
+}
+      
