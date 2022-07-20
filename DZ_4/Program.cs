@@ -8,10 +8,14 @@ Console.WriteLine("Введите число N");
 int number = Convert.ToInt32(Console.ReadLine());
 int x = 2;
 while (x <= number)
-
-    if (x % 2 == 0 )
+{
+    if (x % 2 == 0)
     {
-    Console.WriteLine(x); 
-    x++;
+Console.WriteLine("четное "+x);
     }
+  x++;
+}
+
+    
+    
 
